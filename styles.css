@@ -1,27 +1,15 @@
 header {
     background-color: #1F2937;
+    display: flex;
 }
 
-.flexheader{
-    display: flex;
-    padding-bottom: -1em;
-}
-.intro {
-    display: inline-block
-}
-.main {
-    font-size: 48px;
-    font-weight: extra-bold;
-    color: #f9faf8
-}
-.secondary {
-    font-size: 18px;
-    color: #e5e7eb;
-}
+
 .headerlink {
     font-size: 18px;
     color: #e5e7eb;
     height: 100px;
+    display: flex;
+    justify-content: space-evenly;
     flex: 1 1 0%;   
 }
 
@@ -32,16 +20,55 @@ header {
     flex: 2 1 0%;
 }
 
+.intro {
+    display: inline-flex;
+    flex: 1 1 0%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+    
+}
+.secondary {
+    font-size: 18px;
+    color: #e5e7eb;  
+}
+
 .button1 {
     background-color: #3882f6;
 }
+
 .action {
     background-color: #3882f6;
+}
+.imgsection{
+    display: flex;
+    flex: 1 1 0%;
+    flex-direction: row;
+}
+.image2 {
+    border-radius: 25px;
+    border: 2px solid #1F2937;
+    padding: 10px;
+    width: 100px;
+    height: 75px; 
+}
+.imgtext {
+    
 }
 .infotext {
     font-size: 36px;
     font-weight: extra-bold;
-    color: #1F2937
+    color: #1F2937;
+    display: inline-flex;
+    flex: 1 4 0%
 }
 .quote {
     background-color: #e5e7eb;
