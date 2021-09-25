@@ -1,6 +1,14 @@
 header {
     background-color: #1F2937;
 }
+
+.flexheader{
+    display: flex;
+    padding-bottom: -1em;
+}
+.intro {
+    display: inline-block
+}
 .main {
     font-size: 48px;
     font-weight: extra-bold;
@@ -13,14 +21,17 @@ header {
 .headerlink {
     font-size: 18px;
     color: #e5e7eb;
+    height: 100px;
+    flex: 1 1 0%;   
 }
+
 .headerlogo {
     font-size: 24px;
-    color: #f9faf8
+    color: #f9faf8;
+    height: 100 px;
+    flex: 2 1 0%;
 }
-.headerweb {
-    background-color: #1F2937;
-}
+
 .button1 {
     background-color: #3882f6;
 }
